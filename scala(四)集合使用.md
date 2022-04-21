@@ -1,4 +1,4 @@
-#集合使用(具体代码见lesson03类)
+# 集合使用(具体代码见lesson03类)
 ## scala使用java中的集合
 ```scala
     val listJava = new util.LinkedList[String]()
@@ -116,7 +116,7 @@ list02.foreach(println)
     mapList.foreach(println)
 ```
 ## 迭代器的使用
-[!迭代器源码分析图](img.assets/scala_iterator源码分析图.jpg)]
+![迭代器源码分析图](img.assets/scala_iterator源码分析图.jpg)]
 ```scala
     //以上代码有什么问题吗？  内存扩大了N倍，每一步计算内存都留有对象数据；有没有什么现成的技术解决数据计算中间状态占用内存这一问题~？
     //iterator！！！！！
