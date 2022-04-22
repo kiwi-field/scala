@@ -120,6 +120,6 @@ class XXX[T](list:util.Iterator[T]){
 //    val iter: util.Iterator[T] = list.iterator()
 //    while(iter.hasNext) f(iter.next())
 //  }
-// 
+//
 //}
 
