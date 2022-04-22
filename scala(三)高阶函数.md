@@ -113,7 +113,7 @@
       for (e <- a) {
         println(e)
       }
-      //      def foreach[U](f: A => U): Unit
+      //      def foreach[U](f: AA => U): Unit
       //      a.foreach(   (x:Int)=>{println(x)}   )
       // 如果匿名函数中的变量在方法体只用了一次，可以用下面这个写法
       //      a.foreach(   println(_)   )
